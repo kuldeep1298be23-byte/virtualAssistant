@@ -10,7 +10,7 @@ import groqResponse from "./gemini.js";
 
 const app=express();
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://virtualassistant-1-9ukl.onrender.com",
     credentials:true
 }))
 const port=process.env.PORT || 5000
